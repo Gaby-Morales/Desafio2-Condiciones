@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <h3>Problema 1 - Botón</h3>
+    <button id="btn_to_change" type="button" class="btn">Click me</button>
+
+    <br />
+    <br />
+
+    <h3>Problema 2 - selección de stickers</h3>
+
+    <form id="form" class="inputs_section">
+      <div>
+        <p>Puedes llevar hasta 10 stickers en total</p>
+        <label for="category_1"></label>
+        <input type="number" name="" id="category_1" min="1" max="10" value="0" required />
+        <img
+          src="./assets/imgs/Hunter × Hunter - Illumi Zoldyck - Mini Puzzle (Ensky).jpeg"
+          alt="Sticker Illumi"
+        />
+      </div>
+
+      <div>
+        <label for="category_2"></label>
+        <input type="number" name="" id="category_2" min="1" max="10" value="0" required />
+        <img src="./assets/imgs/descarga.jpeg" alt="Sticker Hisoka" />
+      </div>
+
+      <div>
+        <label for="category_3"></label>
+        <input type="number" name="" id="category_3" min="1" max="10" value="0" required />
+        <img src="./assets/imgs/pitou mobage cards.jpeg" alt="Sticker Pitou" />
+      </div>
+
+      <div>
+        <button type="submit" id="calcular">Calcular</button>
+        <p id="amount"></p>
+      </div>
+    </form>
+
+    <br />
+    <br />
+
+    <h3>Problema 3 - Verificación de Password</h3>
+
+    <div class="password-container">
+      <h4>Ingresa el password</h4>
+      <div class="options">
+        <select id="select1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select id="select2">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+        <select id="select3">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <button id="submit_password">Ingresar</button>
+      <p id="message"></p>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
